@@ -15,12 +15,12 @@ for (let i = 1; i <= 100; i++){
 
     
     if ((i % 3 == 0) && (i % 5 == 0)){
-        printNumberList.innerHTML += `<h1>FizzBuzz</h1>`;
+        printNumberList.innerHTML += `<h1 class="color-purple">FizzBuzz</h1>`;
     } else if (i % 5 == 0){
-        printNumberList.innerHTML += `<h1>Buzz</h1>`;
+        printNumberList.innerHTML += `<h1 class="color-blue">Buzz</h1>`;
     } else if (i % 3 == 0){
-        printNumberList.innerHTML += `<h1>Fizz</h1>`;
+        printNumberList.innerHTML += `<h1 class="color-red">Fizz</h1>`;
     } else{
-        printNumberList.innerHTML += `<h1>${i}</h1>`;
+        printNumberList.innerHTML += `<h1 class="number">${i}</h1>`;
     }
 }
