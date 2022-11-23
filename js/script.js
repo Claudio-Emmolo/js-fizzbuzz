@@ -9,3 +9,8 @@
  * Successivamente stampare tutti i numeri nella section#number-list;
  * Aggiunge carateristiche CSS diverse ad ogni Fizz, Buzz, FizzBuzz o numero...
  */
+
+for (let i = 1; i <= 100; i++){
+    
+    console.log (i);
+}
